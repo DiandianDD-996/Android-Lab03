@@ -79,6 +79,7 @@ public class CourseTest {
     has("1 selected");
     click("Two");
     has("2 selected");
+    d.takeScreenshot(new java.io.File(ctx.getFilesDir(), "action-mode.png"));
     back();
     back();
     click("RecyclerView");

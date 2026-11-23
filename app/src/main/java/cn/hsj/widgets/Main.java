@@ -48,6 +48,7 @@ public class Main extends Activity {
 
   void button(String label, Runnable action) {
     Button b = new Button(this);
+    b.setAllCaps(false);
     b.setText(label);
     root.addView(b);
     b.setOnClickListener(v -> action.run());

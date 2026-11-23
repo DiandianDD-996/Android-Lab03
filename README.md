@@ -1,5 +1,9 @@
 # 实验 3 · Android 界面组件
 
+已在 Android 13（API 33）模拟器构建、安装并运行设备验收测试。连接测试设备后可用 `.\gradlew.bat connectedDebugAndroidTest` 重跑；测试会在应用中操作，请使用测试设备。
+
+实际运行截图：[ActionMode 多选](docs/action-mode.png)。
+
 ## 运行
 
 在 Android Studio 中打开本仓库根目录，使用 JDK 17、Android SDK Platform 35 和 Build Tools 34.0.0。选择 API 26 或更高版本的设备，等待 Gradle 同步后运行 app。Windows 命令行也可在仓库根目录执行：
